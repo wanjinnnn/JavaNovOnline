@@ -7,7 +7,7 @@ public class Person {
         int age = 22;
         double height = 1.66;
         double weight = 52;
-        double bmi = weight/height;
+        double bmi = weight/(height*height);
         DecimalFormat df = new DecimalFormat("#.000");
         System.out.println("The student name is " + name + " and age is " + age);
         System.out.println("The student height is " + height + " m and the weight is " + weight + " kg");
