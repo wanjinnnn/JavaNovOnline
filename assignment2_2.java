@@ -28,9 +28,6 @@ public class assignment2_2 {
 
         double averagePrice = (car1.getPrice() + car2.getPrice() + car3.getPrice()) / 3;
         System.out.println("The average price of the cars is: " + averagePrice);
-
-        String priceCategory = (averagePrice > 100000) ? "The cars are expensive." :(averagePrice >= 50000 && averagePrice <= 99999) ? "The cars are normal price." :"The cars are cheap.";
-        System.out.println(priceCategory);
     }
 
     private Car getCarDetails(Scanner scanner) {
